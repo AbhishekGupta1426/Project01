@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* top bar wraper */
+
+.top_bar_wraper {
+    background-color: #eeeeee;
+    height: 26.8px;
+    display: flex;
+    justify-content: center;
+}
+
+.top_bar {
+    height: 24.8px;
+    width: 1170px;
+    padding: 8px 0px 6px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.pull_left {
+    height: 10.8px;
+    width: 452.96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: first baseline;
+}
+
+.pull_right {
+    height: 10px;
+    width: 150.24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #000000cc;
+}
+
+.headerlink {
+    margin: 8px;
+    height: 12px;
+    font-size: 12px;
+}
+
+/* main header wraper */
+
+.mainheaderwraper {
+    height: 52px;
+    color: #ffffff;
+    border-bottom: 0.2px solid rgb(196, 195, 195);
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    height: 52px;
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.image {
+    width: 190px;
+    height: 52px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    /* margin-right: 20px; */
+}
+
+img {
+    height: 30px;
+    width: 147px;
+    margin: 0px 0px 5px;
+    background-size: cover;
+    /* mix-blend-mode: color-burn; */
+}
+
+.dropDownWrapper {
+    height: 52px;
+    width: 487.5px;
+    display: flex;
+    align-items: center;
+}
+
+.dropDownDiv {
+    width: 287.93px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuWrapper {
+    display: flex;
+    height: 45px;
+    width: 65.69px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.menselect{
+    display: flex;
+    align-items: center;
+}
+
+.menselect span{
+    width: 56.69px;
+    height: 16.8px;
+    display: flex;
+    align-items: center;
+}
+
+ span {
+    width: 56.69px;
+    height: 45px;
+}
+
+.menuWrapper a {
+    /* height: 45px;
+    width: 56.69px; */
+    color: #000000e6;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
