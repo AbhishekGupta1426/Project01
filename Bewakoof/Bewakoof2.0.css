@@ -65,7 +65,7 @@ a {
     width: 1170px;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
+    justify-content: space-between;
 }
 
 .image {
@@ -83,51 +83,4 @@ img {
     margin: 0px 0px 5px;
     background-size: cover;
     /* mix-blend-mode: color-burn; */
-}
-
-.dropDownWrapper {
-    height: 52px;
-    width: 487.5px;
-    display: flex;
-    align-items: center;
-}
-
-.dropDownDiv {
-    width: 287.93px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.menuWrapper {
-    display: flex;
-    height: 45px;
-    width: 65.69px;
-    align-items: center;
-    /* justify-content: center; */
-}
-.menselect{
-    display: flex;
-    align-items: center;
-}
-
-.menselect span{
-    width: 56.69px;
-    height: 16.8px;
-    display: flex;
-    align-items: center;
-}
-
- span {
-    width: 56.69px;
-    height: 45px;
-}
-
-.menuWrapper a {
-    /* height: 45px;
-    width: 56.69px; */
-    color: #000000e6;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
