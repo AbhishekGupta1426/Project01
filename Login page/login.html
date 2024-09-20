@@ -13,27 +13,96 @@
 
 <body>
     <div class="wrapper">
-    <nav class="navbar">
-        <div class="nav_logo">
-            <p>logo .</p>
+        <nav class="navbar">
+            <div class="nav_logo">
+                <p>logo .</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Blog</a></li>
+                    <li><a href="#" class="link">services</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="btn white-btn" id="loginbtn">Sign In</button>
+                <button class="btn" id="registerbtn">Sign Up</button>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+        <!-- form box -->
+        <div class="form-box">
+             
+                        <!-- login form -->
+                        <div class="login-container" id="login">
+                            <div class="top">
+                                <span>Don't have an account? <a href="#" onclick="register()">Sign Up</a></span>
+                                <header>Login</header>
+                            </div>
+                            <div class="input-box">
+                                <input type="text" class="input-field" placeholder="Username or Email">
+                                <i class="fa-regular fa-user"></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="password" class="input-field" placeholder="Password">
+                                <i class="fa-solid fa-lock"></i>
+                            </div>
+                            <div class="input-box">
+                                <input type="submit" class="submit" value="Sign In">
+                            </div>
+                            <div class="two-col">
+                                <div class="one">
+                                    <input type="checkbox" id="login-check">
+                                    <label for="login-check">Remember me</label>
+                                </div>
+                                <div class="two">
+                                    <label><a href="#">Forgot Password</a></label>
+                                </div>
+                            </div>
+                        </div>
+
+            <!-- Resister -->
+            <div class="resister-container" id="register">
+                <div class="top">
+                    <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+                    <header>Sign Up</header>
+                </div>
+                <div class="two-form">
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Firstname">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Lastname">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Email">
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Resister">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                        <input type="checkbox" id="resiter-check">
+                        <label for="resiter-check">Remember me</label>
+                    </div>
+                    <div class="two">
+                        <label><a href="#">Terms & Conditions</a></label>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="nav-menu">
-            <ul>
-                <li><a href="#" class="link active">Home</a></li>
-                <li><a href="#" class="link">Blog</a></li>
-                <li><a href="#" class="link">services</a></li>
-                <li><a href="#" class="link">About</a></li>
-            </ul>
-        </div>
-        <div class="nav-button">
-            <button class="btn white-btn" id="loginbtn">Sign In</button>
-            <button class="btn" id="registerbtn">Sign Up</button>
-        </div>
-        <div class="nav-menu-btn">
-            <i class="fa-solid fa-bars"></i>
-        </div>
-    </nav>
-</div>
+    </div>
 </body>
 
 </html>
