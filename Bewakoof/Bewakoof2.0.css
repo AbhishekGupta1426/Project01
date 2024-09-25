@@ -53,11 +53,159 @@ a {
 
 /* main header wraper */
 
-.mainHeaderWrapper{
+.mainheaderwraper {
+    background-color: white;
     display: flex;
+    justify-content: center;
+    border-bottom: 1.2px solid gray;
+    color: #ffffff;
+}
+
+.mainheader {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 1170px;
+    height: 52px;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    width: 195px;
+    height: 52px;
+    padding: 0 9px;
+    color: #000000E6;
+}
+
+.logo img {
+    width: 141px;
+    height: 30px;
+}
+
+.menuWrapper {
+    display: flex;
+    width: 487px;
+    height: 52px;
+}
+
+.menusection {
+    width: 287px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    color: #000000E6;
+}
+
+.section {
+    font-size: medium;
+    padding: 0 11px;
+}
+
+.searchMyAccount {
+    display: flex;
+    align-items: center;
+    width: 487.5px;
+    height: 52px;
+    padding: 0 0 0 18px;
+    color: #333333;
+}
+.searchborder{
+    width: 319.5px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding: 0 9px;
+}
+
+.nav_search_border {
+    display: flex;
+    align-items: center;
+    width: 301.5px;
+    height: 40px;
+    background-color: #EAEAEA;
+    padding: 5px 5px 5px 40px;
+    border-radius: 5px;
+}
+
+.search_icon {
+    position: relative;
+    left: -25px;
+    width: 18px;
+    height: 17px;
+}
+
+.search_input {
+    background: #eaeaea;
+    width: 245px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: -15px;
+    font-size: 11px;
+}
+
+.rightelement {
+    display: flex;
+    align-items: center;
+    width: 100%;
     height: 50px;
-    line-height: 17px;
-    position: fixed;
-    margin-top: 25px;
-    background-color:white;
+    font-size: large;
+    padding: 0 0 0 9px;
+    justify-content: space-evenly;
+}
+
+.Login {
+    width: 60.21px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 9px;
+}
+
+.Login a {
+    width: 42px;
+    height: 20px;
+    text-decoration: none;
+}
+
+.favorate {
+    width: 20px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.favorate i {
+    width: 20px;
+    height: 20px;
+}
+
+.bag_icon {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.bag_icon a {
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+/* BottomHeaderWrapper */
+.BottomHeaderWrapper{
+    height: 59px;
+    display: flex;
+    align-items: center;
+}
+.tabnav{
+display: flex;
+align-items: center;
+}
+li{
+    list-style: none;
+    padding: o 10px;
 }
