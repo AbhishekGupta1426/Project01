@@ -6,12 +6,16 @@
 
 /* top bar wraper */
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 .top_bar_wraper {
     background-color: #eeeeee;
     height: 26.8px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .top_bar {
@@ -19,7 +23,6 @@
     width: 1170px;
     padding: 8px 0px 6px;
     display: flex;
-    /* justify-content: center; */
     justify-content: space-between;
 }
 
@@ -110,7 +113,8 @@ a {
     padding: 0 0 0 18px;
     color: #333333;
 }
-.searchborder{
+
+.searchborder {
     width: 319.5px;
     height: 52px;
     display: flex;
@@ -195,17 +199,180 @@ a {
     height: 20px;
     text-decoration: none;
 }
+
 /* BottomHeaderWrapper */
-.BottomHeaderWrapper{
+.BottomHeaderWrapper {
     height: 59px;
     display: flex;
     align-items: center;
+    padding: 0 9px;
+    background-color: white;
+    /* justify-content: center; */
 }
-.tabnav{
-display: flex;
-align-items: center;
+
+ul {
+    display: flex;
+    align-items: center;
+    height: 59px;
 }
-li{
+
+.tabnav {
+    display: flex;
+    align-items: center;
+}
+
+
+li {
+    display: flex;
+    align-items: center;
     list-style: none;
     padding: o 10px;
+    height: 58px;
+}
+
+li a {
+    font-size: 19.9px;
+    padding: 21px 24px;
+    height: 58px;
+    width: 100%;
+}
+
+/* main section */
+
+.basepage {
+    height: 2000px;
+    padding-top: 65px;
+    padding-bottom: 0px;
+    position: relative;
+    top: 85px;
+    z-index: -1;
+}
+
+.container-fluid {
+    height: 550;
+}
+
+/* .icon_privious.icon_after{
+    position: relative;
+    z-index: 5;
+} */
+.horizontal_swipper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boximag1 {
+    height: 530px;
+    width: 495px;
+    background-image: url(HC-1X1-1-ezgif-com-optimize-1727156879.gif);
+    background-size: cover;
+
+}
+
+.boximag2 {
+    height: 530px;
+    width: 495px;
+    background-image: url(OOF-Sale-Common-IK-RM-1x1-Banner-1727183418.gif);
+    background-size: cover;
+}
+
+.boximag3 {
+    height: 530px;
+    width: 495px;
+    background-image: url(OOFsale-Sept-1x1-classic-common-sale-1727240072.webp);
+    background-size: cover;
+}
+
+.timerouter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94px;
+    padding: 15px 0 19px;
+}
+
+.timerBox {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    height: 35px;
+    margin: 10px;
+}
+
+.product {
+    height: 600px;
+    background-color: rgb(217, 241, 251);
+}
+
+.product-deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    position: relative;
+    top: 30px;
+}
+
+.product-cont {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+}
+
+.box-cont {
+    height: 440px;
+    background-color: #ffffff;
+}
+
+.productcardDetail {
+    height: 90px;
+    padding: 8px 0 0;
+    background: #ffffff;
+}
+
+.BrandName {
+    width: 153px;
+    height: 22px;
+    padding: 0 0 4px 8px;
+    color:#4f5362;
+    display: flex;
+}
+.productName{
+    width: 153px;
+    height: 12px;
+    font-size: 9px;
+    color: #737373;
+    padding: 4px 0 0 8px;
+}
+
+.product-imag {
+    width: 240px;
+    height: 350px;
+}
+
+.product-imag1 {
+    background-image: url(men-s-navy-blue-all-over-printed-boxers-635742-1719299010-1.jpg);
+    background-size: cover;
+}
+
+.product-imag2 {
+    background-image: url(men-s-grey-super-loose-fit-t-shirt-617039-1720786275-1.jpg);
+    background-size: cover;
+}
+
+.product-imag3 {
+    background-image: url(the-saviour-full-sleeve-t-shirt-547335-1665064762-1.jpg);
+    background-size: cover;
+}
+
+.product-imag4 {
+    background-image: url(men-s-black-t-shirt-555436-1724065398-1.jpg);
+    background-size: cover;
+}
+
+.product-imag5 {
+    background-image: url(men-s-green-track-pants-617405-1727240262-1.jpg);
+    background-size: cover;
 }
